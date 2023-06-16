@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#1818FF"
+    tools:context=".Athlete">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_athleteId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="id:"
+                android:textAlignment="viewEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_athleteId2"
+                android:layout_width="28dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_athleteName"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Name:"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_athleteName2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Email:"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_email2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_phone_number"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Phone Number:"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_phone_number2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_birth_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_birth_date"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Birth Date:"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_birth_date2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Gender:"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_gender2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_height"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_height"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Height:"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_height2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_trainer_notes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_weight"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Weight:"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_weight2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_trainer_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_trainer_email"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Trainer Email:"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_trainer_email2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_dietitian_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_dietitian_email"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Dietitian Email:"
+                android:textAlignment="textEnd"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_dietitian_email2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
